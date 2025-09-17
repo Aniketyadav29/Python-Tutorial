@@ -43,7 +43,7 @@ side=int(input("enter your side of square:"))
 area =side*side
 print("The area of the square is :",area)
 
-# Question 3: 
+# Question 3: Write a program to input 2 floating points number & print their Average 
 
 num1=float(input("enter number 1:"))
 num2=float(input("enter number 2:"))
