@@ -1,4 +1,4 @@
-Input in Python
+# Input in Python
 
 name=input("enter your name:")
 print("Welcome",name)
@@ -37,11 +37,15 @@ num1=int(input("enter your number:"))
 num2=int(input("enter your number"))
 sum=num1+num2
 print ("The sum of the numbers is :",sum)
+
+<br>
 # Question 2: Write a program to calculate the area of a square.
 
 side=int(input("enter your side of square:"))
 area =side*side
 print("The area of the square is :",area)
+
+<br>
 
 # Question 3: Write a program to input 2 floating points number & print their Average 
 
