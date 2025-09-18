@@ -159,6 +159,15 @@ print(type(name))
 print(type(age))
 print(type(marks))
 
+<br>
+#Question 1: Write a program to add two numbers and display the sum.
+
+num1=int(input("enter your number:"))
+num2=int(input("enter your number"))
+sum=num1+num2
+print ("The sum of the numbers is :",sum)
+
+
 
 
 
