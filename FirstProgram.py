@@ -168,6 +168,16 @@ sum=num1+num2
 print ("The sum of the numbers is :",sum)
 
 
+<br>
+
+# Question 2: Write a program to calculate the area of a square.
+
+side=int(input("enter your side of square:"))
+area =side*side
+print("The area of the square is :",area)
+
+
+
 
 
 
