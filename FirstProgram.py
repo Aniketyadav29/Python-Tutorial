@@ -176,6 +176,15 @@ side=int(input("enter your side of square:"))
 area =side*side
 print("The area of the square is :",area)
 
+<br>
+# Question 3: 
+
+num1=float(input("enter number 1:"))
+num2=float(input("enter number 2:"))
+average=(num1+num2)/2
+print("the average of the numbers :",average)
+
+
 
 
 
