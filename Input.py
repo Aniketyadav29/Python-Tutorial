@@ -28,7 +28,7 @@ print(type(age))
 print(type(marks))
 
 
-<br>
+#input based question 
 
 
 #Question 1: Write a program to add two numbers and display the sum.
