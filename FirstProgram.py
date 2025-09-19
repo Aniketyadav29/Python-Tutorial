@@ -184,6 +184,12 @@ num2=float(input("enter number 2:"))
 average=(num1+num2)/2
 print("the average of the numbers :",average)
 
+#Question 4: WAP to input of 2 number a & b print true if a is greater than or equal to b otherwise false.
+a=int(input("enter your number a:"))
+b=int (input("enter your number b:"))
+print("a is greater than or equal to b:",a>=b)
+
+
 
 
 
