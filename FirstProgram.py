@@ -216,6 +216,16 @@ print(Str1)
  print(Str1+Str2)
  print(Str1+""+Str2)
 
+#Length of String:-
+
+ len1=len(Str1)
+ print(len1)
+
+ len2=len(Str1)
+ print(len2)
+
+
+
 
 
 
