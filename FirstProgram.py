@@ -204,6 +204,12 @@ print(Str1)
 #why we use :-
 
 " This is apna college's tutorial."
+#Escape Sequence Character :-
+
+ Str4= "this is string.\n we are using it in python."
+ print(Str4)
+
+
 
 
 
