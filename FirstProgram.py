@@ -209,6 +209,15 @@ print(Str1)
  Str4= "this is string.\n we are using it in python."
  print(Str4)
 
+# Basic Operation on String:-
+
+#concatination:-
+
+ print(Str1+Str2)
+ print(Str1+""+Str2)
+
+
+
 
 
 
