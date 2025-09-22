@@ -18,3 +18,11 @@ Str3="""" my name is banku """
 #concatination
 
 print(Str1+Str2)
+
+#Length of String:-
+
+len1=len(Str1)
+print(len1)
+
+len2=len(Str1)
+print(len2)
