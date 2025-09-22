@@ -224,6 +224,19 @@ print(Str1)
  len2=len(Str1)
  print(len2)
 
+#Indexing in python :-
+
+print(Str1[1])
+
+print(Str1[4])
+
+print(Str2[5])
+
+print(Str2[9])
+
+
+
+
 
 
 
