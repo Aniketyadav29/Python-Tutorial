@@ -5,21 +5,21 @@ Str1="my name is aniket yadav "
 Str2='this is aniket yadav'
 Str3="""" my name is banku """
 
-#Why it is used:-
+# Why it is used:-
 "this is apnacillege's tutorial"
 
-#Escape Sequence Character :-
+# Escape Sequence Character :-
 
  Str4= "this is string.\n we are using it in python."
  print(Str4)
 
 # Basic Operation on String
 
-#concatination
+# Concatination
 
 print(Str1+Str2)
 
-#Length of String:-
+# Length of String:-
 
 len1=len(Str1)
 print(len1)
@@ -27,7 +27,7 @@ print(len1)
 len2=len(Str1)
 print(len2)
 
-#Indexing in python :-
+# Indexing in python :-
 
 print(Str1[1])
 
