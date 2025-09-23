@@ -48,7 +48,7 @@ num=5
 num **= 5
 print("num is:",num)
 
-# Logical Operators
+# Logical Operators:-
 a=True
 b=False
 print("The value of a and b is:",a and b) # and operator, 'False' because both a and b are not true
