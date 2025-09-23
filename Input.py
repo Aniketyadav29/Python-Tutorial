@@ -1,4 +1,4 @@
-# Input in Python
+# How to take input in python 
 
 name=input("enter your name:")
 print("Welcome",name)
