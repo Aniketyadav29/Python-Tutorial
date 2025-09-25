@@ -63,5 +63,10 @@ print(Str2[9])
 
 # Question 1:-  WAP to input user name and print the length of the name.
  name=(input("Enter your name:"))
- print("the length of your name is :" ,len(name)) 
+ print("the length of your name is :" ,len(name))
+
+# Question 2:- WAP to find occurrence of $ in a string.
+
+str=input("Enter your string:")
+print("the occurrence of $ in the string is :",str.count('$'))
 
