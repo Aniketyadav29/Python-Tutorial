@@ -44,3 +44,9 @@ print(Str2[9])
  print(Str3[4:])  #[4:length(Str3)]
  print(Str2[:7])  #[0:7]
 
+# Slicing in Negative Index :-
+
+ Str="apple"
+ print(Str[-3:-2])
+ print(Str[-5:-2])
+
