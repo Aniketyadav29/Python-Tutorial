@@ -50,3 +50,12 @@ print(Str2[9])
  print(Str[-3:-2])
  print(Str[-5:-2])
 
+# String Function:-
+
+ str="this is apna college and i am learning python"
+ print(str.endswith("thon")) # it checks whether the string ends with the specified value, returns true or false
+ print(str.capitalize()) # it converts the first character to upper case
+ print(str.find("apna")) # it finds the first occurrence of the specified value, returns the index of the first occurrence
+ print(str.replace("apna","our")) # it replaces the specified value with the specified value
+ print(str.count("is")) # it counts the number of occurrences of the specified value
+
