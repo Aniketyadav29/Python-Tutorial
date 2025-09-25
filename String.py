@@ -59,3 +59,9 @@ print(Str2[9])
  print(str.replace("apna","our")) # it replaces the specified value with the specified value
  print(str.count("is")) # it counts the number of occurrences of the specified value
 
+# Practice :- 
+
+# Question 1:-  WAP to input user name and print the length of the name.
+ name=(input("Enter your name:"))
+ print("the length of your name is :" ,len(name)) 
+
