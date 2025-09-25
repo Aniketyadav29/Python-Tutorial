@@ -248,6 +248,28 @@ print(Str2[1:7])
  print(Str[-5:-2])
 
 
+# String Function:-
+
+ str="this is apna college and i am learning python"
+ print(str.endswith("thon")) # it checks whether the string ends with the specified value, returns true or false
+ print(str.capitalize()) # it converts the first character to upper case
+ print(str.find("apna")) # it finds the first occurrence of the specified value, returns the index of the first occurrence
+ print(str.replace("apna","our")) # it replaces the specified value with the specified value
+ print(str.count("is")) # it counts the number of occurrences of the specified value
+
+# Practice :-
+
+# Question 1:-  WAP to input user name and print the length of the name.
+ name=(input("Enter your name:"))
+ print("the length of your name is :" ,len(name)) 
+
+# Question 2:- WAP to find occurrence of $ in a string.
+
+str=input("Enter your string:")
+print("the occurrence of $ in the string is :",str.count('$'))
+
+
+
 
 
 
