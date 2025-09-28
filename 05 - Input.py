@@ -47,7 +47,7 @@ print("The area of the square is :",area)
 
 <br>
 
-# Question 3: Write a program to input 2 floating points number & print their Average 
+# Question 3: Write a program to input 2 floating points number & print their Average .
 
 num1=float(input("enter number 1:"))
 num2=float(input("enter number 2:"))
