@@ -1,6 +1,6 @@
 # Type Conversion
 
-# Implicit Type Conversion
+# Implicit Type Conversion :-
 
 a=5
 b=2.0
@@ -10,7 +10,7 @@ print("The type of a is:",type(a)) # type of a is int
 print("The type of c is:",type(c)) # type of c is float
 
 
-# Explicit Type Conversion
+# Explicit Type Conversion:-
 a="5"
 b=4.05
 a=int(a) # converting string to int,because a is string
