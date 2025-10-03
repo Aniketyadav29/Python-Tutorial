@@ -24,3 +24,12 @@ print(Mark[1:4])
 print((Mark[:4]))
 print(Mark[1:])
 print(Marks[-3:-1]) 
+
+#List Methods:-
+List=[3,1,2]
+ List.sort() # it sorts the list in ascending order
+ print(List)
+ List.reverse() # it reverses the list
+ print(List)
+ List.append(4) # it adds an element at the end of the list
+ print(List)
