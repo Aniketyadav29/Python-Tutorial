@@ -45,3 +45,13 @@ list.pop() # it removes the last element of the list
 print(list)
 list.append(6) # it adds an element at the end of the list
 print(list)
+
+
+# Tuple:- Tuple is immutable in python. it means we cannot change the elements of the tuple.it's a built-in data type in python.
+
+tup=(1,2,3,4,5)
+print(type(tup))
+print(tup[0])
+print(tup[1:4])
+print(tup[-3:-1])
+# tup[0]=6 # it will give an error because tuple is immutable
