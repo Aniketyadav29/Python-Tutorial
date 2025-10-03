@@ -72,6 +72,19 @@ for i in range(5):
 print("Your favorite movies are:",movies)
 
 # Another Method:-
+movies=[]
+mov1=input("Enter your favorite movie1:")
+mov2=input("Enter your favorite movie2:")
+mov3=input("Enter your favorite movie3:")
+mov4=input("Enter your favorite movie4:")
+mov5=input("Enter your favorite movie5:")
+movies.append(mov1)
+movies.append(mov2)
+movies.append(mov3)
+movies.append(mov4)
+movies.append(mov5)
+print("Your favorite movies are:",movies)
+
 
 
 
