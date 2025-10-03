@@ -43,3 +43,5 @@ list.remove(3) # it removes the first occurrence of the specified element
 print(list) 
 list.pop() # it removes the last element of the list
 print(list)
+list.append(6) # it adds an element at the end of the list
+print(list)
