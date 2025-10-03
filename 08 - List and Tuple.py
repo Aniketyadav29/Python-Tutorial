@@ -39,11 +39,11 @@ List.insert(2,5) # it adds an element at the specified index
  print(List)
 
 list=[1,2,3,3,5]
-list.remove(3) # it removes the first occurrence of the specified element
+list.remove(3) # it removes the first occurrence of the specified element.
 print(list) 
-list.pop() # it removes the last element of the list
+list.pop() # it removes the last element of the list.
 print(list)
-list.append(6) # it adds an element at the end of the list
+list.append(6) # it adds an element at the end of the list.
 print(list)
 
 
@@ -54,4 +54,15 @@ print(type(tup))
 print(tup[0])
 print(tup[1:4])
 print(tup[-3:-1])
-# tup[0]=6 # it will give an error because tuple is immutable
+# tup[0]=6 # it will give an error because tuple is immutable.
+
+#Tuple Methods:-
+tup=(1,2,3,4,5,3)
+print(tup.count(3)) # it counts the number of occurrences of the specified element.
+print(tup.index(4)) # it returns the index of the first occurrence of the specified element.
+print(tup.sort()) # it will give an error because tuple is immutable.
+print(tup.reverse()) # it will give an error because tuple is immutable.
+
+
+
+
