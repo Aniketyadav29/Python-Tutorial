@@ -268,6 +268,39 @@ print(Str2[1:7])
 str=input("Enter your string:")
 print("the occurrence of $ in the string is :",str.count('$'))
 
+ Conditional Statements in pyton:-
+
+# if statement
+
+ age=23
+ if (age>=18):
+     print("you are eligible for vote" )
+     print("I am always executed")
+
+# if elif statement
+ light="red"
+ if (light=="red"):
+     print("you should stop")
+ elif (light=="yellow"):
+     print("you should get ready")
+ elif (light=="green"):
+     print("you can go")
+   
+ print("end of the program")
+
+ difference between if and elif:-
+
+# if statement:- if statement is used to execute a block of code if a specified condition is true. if the condition is false, the block of code is skipped.
+ num=5
+ if (num>2):
+     print("num is greater than 2")
+ if (num>4):
+     print("num is greater than 4")
+
+
+
+
+
 
 
 
