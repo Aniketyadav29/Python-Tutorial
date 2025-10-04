@@ -86,6 +86,14 @@ movies.append(mov5)
 print("Your favorite movies are:",movies)
 
 # Question :- WAP a program to check palindrome or not.
+list1=[1,2,1]
+list2=[1,2,3]
+copy_list1=list1.copy()
+list1.reverse()
+if (list1==copy_list1):
+    print("The list is palindrome")
+else:
+    print("The list is not palindrome")
 
 
 
