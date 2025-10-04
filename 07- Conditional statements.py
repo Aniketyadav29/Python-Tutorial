@@ -95,7 +95,7 @@ elif (num2>=num1) and (num2>=num3):
 else:
     print("num3 is the greatest number:",num3) 
 
-# Question 3:- WAP to check whether the entered number is multiple by 7 or not
+# Question 3:- WAP to check whether the entered number is multiple by 7 or not.
 
 num=int(input("Enter your number:"))
 if(num%7==0):
