@@ -24,6 +24,7 @@ print("the value of a<=b is:",a<=b)  # less than or equal to operator, 'False' b
 print("the value of a>b is:",a>b) # greater than operator, 'True' because 50 is greater than 20
 
 print("the value of a<b is:",a<b)   # less than operator, 'False' because 50 is not less than 20
+
 # Assignment Operators:-
 num=5
 num+=5
@@ -49,6 +50,7 @@ num **= 5
 print("num is:",num)
 
 # Logical Operators:-
+
 a=True
 b=False
 print("The value of a and b is:",a and b) # and operator, 'False' because both a and b are not true
