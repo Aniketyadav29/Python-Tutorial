@@ -85,6 +85,8 @@ movies.append(mov4)
 movies.append(mov5)
 print("Your favorite movies are:",movies)
 
+# Question :- WAP a program to check palindrome or not.
+
 
 
 
