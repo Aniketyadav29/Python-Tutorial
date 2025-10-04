@@ -95,6 +95,12 @@ if (list1==copy_list1):
 else:
     print("The list is not palindrome")
 
+# Question :- WAP to count the number of students with "A" grade in the following tuple.
+grades=("A","B","C","A","D","A","B")
+count=grades.count("A")
+print("The number of students with A grade is:",count) 
+
+
 
 
 
