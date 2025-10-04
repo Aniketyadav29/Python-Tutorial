@@ -18,9 +18,9 @@ elif (light=="green"):
    
 print("end of the program")
 
-# difference between if and elif:-
+# Difference between if and elif:-
 
-#if statement:- if statement is used to execute a block of code if a specified condition is true. if the condition is false, the block of code is skipped.
+# if statement:- if statement is used to execute a block of code if a specified condition is true. if the condition is false, the block of code is skipped.
 num=5
 if (num>2):
     print("num is greater than 2")
