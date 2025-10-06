@@ -312,7 +312,29 @@ elif (light=="green"):
     print("you can go") 
 else:
     print("invalid color") # indented block 
+
+# Practice:-
+
+age=28
+if (age<18):
+    print("you are a minor") #indented block
+else: 
+    print("you are an adult") 
+
+
+# Question 1:- WAP to assign grades to students based on their marks.
+marks=int(input("enter your marks:"))
+if(marks>=90):
+    print("A grade")
+elif(90>marks>=80):
+    print("B grade")
+elif(80>marks>=70):
+    print("C grade")
+else:
+    print("D grade") 
+print("grade of student->", marks)
  
+
 
 
 
