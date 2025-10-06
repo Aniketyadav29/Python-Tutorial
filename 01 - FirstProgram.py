@@ -353,7 +353,28 @@ if (num%2==0):
 else:
     print("the Number is Odd")
 
+# Question 2:- WAP to find the greatest number among three numbers.
+num1=int(input("Enter your number1:"))
+num2=int(input("Enter your number2:"))
+num3=int(input("Enter your number3:"))
+if (num1>=num2) and (num1>=num3):
+    print("num1 is the greatest number:",num1) 
+elif (num2>=num1) and (num2>=num3):
+    print("num2 is the greatest number:",num2)
+else:
+    print("num3 is the greatest number:",num3) 
+
+# Question 3:- WAP to check whether the entered number is multiple by 7 or not
+
+num=int(input("Enter your number:"))
+if(num%7==0):
+    print("The Number is Multiple by 7")
+else:
+    print("The Number is not Multiple by 7")
+
+
  
+
 
 
 
