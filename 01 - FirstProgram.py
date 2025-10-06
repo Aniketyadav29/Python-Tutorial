@@ -333,7 +333,28 @@ elif(80>marks>=70):
 else:
     print("D grade") 
 print("grade of student->", marks)
+
+# Nested if-else statement:-
+
+age=25
+if(age>=18):
+    if(age>=29):
+        print("you are eligible for voting")
+    else:
+        print("you are not eligible for voting")
+else:
+    print("you are not eligible for vote")    
+
+
+# Practice:-WAP if the number is entered by the user is even or odd.
+num=int(input("Enter Your Number"))
+if (num%2==0):
+    print("The Number is Even")
+else:
+    print("the Number is Odd")
+
  
+
 
 
 
