@@ -10,7 +10,7 @@ Str3="""" my name is banku """
 
 # Escape Sequence Character :-
 
- Str4= "this is string.\n we are using it in python."
+ Str4= "This is string.\n we are using it in python."
  print(Str4)
 
 # Basic Operation on String
