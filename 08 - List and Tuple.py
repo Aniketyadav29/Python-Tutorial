@@ -25,7 +25,7 @@ print((Mark[:4]))
 print(Mark[1:])
 print(Marks[-3:-1]) 
 
-#List Methods:-
+# List Methods:-
 List=[3,1,2]
  List.sort() # it sorts the list in ascending order
  print(List)
