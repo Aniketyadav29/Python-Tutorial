@@ -63,7 +63,7 @@ print(tup.index(4)) # it returns the index of the first occurrence of the specif
 print(tup.sort()) # it will give an error because tuple is immutable.
 print(tup.reverse()) # it will give an error because tuple is immutable.
 
-#practice:-
+# Practice:-
 # Question 1:- WAP to ask user to enter his favorite 5 movies and store them in a list.
 movies=[]
 for i in range(5):
