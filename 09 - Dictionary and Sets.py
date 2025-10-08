@@ -29,6 +29,26 @@ null_dict={}
 print(null_dict)
 print(type(null_dict))
 
+# Nested Dictionary:-
+student={
+    "student1":{
+        "Name":"Aniket Yadav",
+        "Age":26,
+        "Section":"2C"
+    },
+    "student2":{
+        "Name":"Anupam Lata Yadav",
+        "Age":22,
+        "Section":"3B"
+    },
+    "student3":{
+        "Name":"Banku Yadav",
+        "Age":20,
+        "Section":"1A"
+    }
+
+}
+
 
 
     
