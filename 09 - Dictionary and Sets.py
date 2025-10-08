@@ -49,6 +49,16 @@ student={
 
 }
 
+# Dictionary Methods:-
+print(student.keys()) # it returns the keys of the dictionary
+print(student.values()) # it returns the values of the dictionary
+print(student.items()) # it returns the key-value pairs of the dictionary
+print(student.get("student1")) # it returns the value of the specified key
+student.pop("student2") # it removes the specified key-value pair from the dictionary
+print(student)
+student.update({"student4":{"Name":"Anjali Yadav","Age":18,"Section":"2B"}}) # it adds a new key-value pair to the dictionary
+print(student)
+
 
 
     
