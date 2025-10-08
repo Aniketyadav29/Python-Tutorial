@@ -24,6 +24,12 @@ print(info["Name"])
 info["Roll No"]=56 # it will add a new key-value pair to the dictionary
 print(info)
 
+# Null value in dictionary:-
+null_dict={}
+print(null_dict)
+print(type(null_dict))
+
+
 
     
 
