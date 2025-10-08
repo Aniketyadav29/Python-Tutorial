@@ -12,6 +12,18 @@ info ={
     "Topic":"Dictionary and Sets"
 }
 
+print(info)
+print(type(info)) 
+print(info["Name"])
+print(info["Age"])
+print(info["Section"])
+print(info["Subject"])
+print(info["Topic"])
+info["Name"]="Anshu Yadav" # it will change the value of the specified key
+print(info["Name"])
+info["Roll No"]=56 # it will add a new key-value pair to the dictionary
+print(info)
+
 
     
 
