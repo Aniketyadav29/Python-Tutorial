@@ -65,6 +65,13 @@ collection={1,2,3,4,5,5,5,5}
 print(collection)
 print(type(collection))
 print(len(collection)) # it returns the number of items in the set.
+# Sets:- Sets are used to store multiple items in a single variable.
+
+# Null sets:-
+
+collection1= set() # it is used to create an empty set ; Syntax: set()
+print(collection1)
+print(type(collection1)) # it will give type 'set' because it's a set
 
 
 
