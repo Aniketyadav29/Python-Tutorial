@@ -129,6 +129,18 @@ Mark.update({"Marks3":Marks3})
 
 print(Mark)
 
+# Practice 5:-
+marks={}
+Phy=int(input("Enter your Physics Marks:"))
+marks.update({"physics":Phy})
+chem=int(input("Enter your Chemistry Marks:"))
+marks.update({chem:chem})
+math=int(input("Enter your math marks:"))
+marks.update({"math": math})
+
+print(marks)
+
+
 
 
 
