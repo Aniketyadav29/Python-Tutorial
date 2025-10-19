@@ -140,6 +140,19 @@ marks.update({"math": math})
 
 print(marks)
 
+# practice 6:- Figure out a way to store 9 and 9.0 as seprate values in the set .
+
+values={
+    ("float",9.0),
+    ("int",9)   
+
+}
+print(values)
+
+# Solution 2:- 
+values={"9.0",9}
+print(values)
+
 
 
 
