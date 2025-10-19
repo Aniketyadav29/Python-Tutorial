@@ -109,6 +109,26 @@ dictionary = {
 }
 print (dictionary)
 
+# practice 3:- 
+
+subjects={
+    "python","java","c++","python","javascript","java",
+    "python","java","C++","c",
+}
+print(subjects)
+print(len(subjects))
+
+practice 4:-
+Mark={}
+Marks1=int(input("Enter your Marks1:"))
+Mark.update({"Marks1":Marks1})
+Marks2=input("Enter your Marks2:")
+Mark.update({"Marks2":Marks2})
+Marks3=input("Enter your Marks3:")
+Mark.update({"Marks3":Marks3})
+
+print(Mark)
+
 
 
 
