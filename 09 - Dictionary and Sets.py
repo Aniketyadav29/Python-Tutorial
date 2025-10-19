@@ -73,6 +73,20 @@ collection1= set() # it is used to create an empty set ; Syntax: set()
 print(collection1)
 print(type(collection1)) # it will give type 'set' because it's a set
 
+# Sets Methods:-
+collection2={1,2,3}
+collection2.add(4) # it adds an element to the set
+print(collection2)
+collection2.remove(2) # it removes the specified element from the set
+print(collection2)
+collection2.pop() # it removes a random element from the set
+print(collection2)
+collection3={3,4,5}
+collection2.update(collection3) # it adds the elements of the specified set to the set
+print(collection2)
+collection2.clear() # it removes all the elements from the set
+print(collection2)
+
 
 
 
