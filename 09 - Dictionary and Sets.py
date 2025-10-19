@@ -90,7 +90,26 @@ print(collection2)
 #set1={1,2,3,4,5}
 #set2={4,5,6,7,8}
 print(set1.union(set2)) # it returns a set that contains all the elements from both sets, without duplicates
-print(set1.intersection(set2)) # it returns a set that contains only the elements that are present in both sets
+print(set1.intersection(set2)) # it returns a set that contains only the elements that are present in both sets.
+
+# Practice:-
+dictionary={
+    "Name":"Aniket Yadav",
+    "Age":26,
+    "Section":"2C",
+    "Subject":["Math,Science,Java,Chemistry,Python"]
+}
+print(dictionary)
+
+# Practice 2 :-
+
+dictionary = {
+    "cat": "A small domesticated carnivorous mammal",
+    "table": ["A piece of furniture with a flat top and one or more legs","list of facts and figure"],
+}
+print (dictionary)
+
+
 
 
 
