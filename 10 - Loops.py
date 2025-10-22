@@ -34,3 +34,18 @@ while(i<=10): # Stopping Condition.
     print("loop ended")
 
 
+# practice :- print numbers from 1 to 100
+i=1
+while(i<=100): # Stopping Condition.
+    print(i)
+    i+=1
+print("Loop Ended")
+
+# practice :- print even numbers from 100 to 1 
+i=100
+while(i>=1): # Stopping Condition.
+    print(i)
+    i-=1
+print("Loop Ended")
+
+
