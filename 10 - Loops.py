@@ -48,4 +48,12 @@ while(i>=1): # Stopping Condition.
     i-=1
 print("Loop Ended")
 
+# practice :- print even numbers from 100 to 1 
+i=100
+while(i>=1): # Stopping Condition.
+    print(i)
+    i-=1
+print("Loop Ended")
+
+
 
