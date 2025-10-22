@@ -71,5 +71,13 @@ while(i<=10):  # Stopping Condition.
     i+=1
 print("Loop Ended ")
 
+# practice :- print odd numbers from 1 to 100.
+i=1 # Iterator Initialization.
+while(i<=100):   # Stopping condition.
+    print(i) # Print Statement.
+    i+=2 # Iterator Update.
+print("Loop Ended") # Loop Ended Statement.
+
+
 
 
