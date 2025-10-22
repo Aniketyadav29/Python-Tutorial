@@ -55,5 +55,21 @@ while(i>=1): # Stopping Condition.
     i-=1
 print("Loop Ended")
 
+# practice :- print a multiplication table of a number n.
+n=int(input("Enter your number:"))
+i=1
+while(i<=10): #Stopping Condition.
+    print(n,"x",i,"=",n*i)
+    i+=1
+print("Loop Ended")
+
+# practice :- print the elements of a list using while loop.
+[1,4,9,16,25,36,49,64,81,100]
+i=1
+while(i<=10):  # Stopping Condition.
+    print(i*i)
+    i+=1
+print("Loop Ended ")
+
 
 
