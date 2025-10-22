@@ -78,6 +78,16 @@ while(i<=100):   # Stopping condition.
     i+=2 # Iterator Update.
 print("Loop Ended") # Loop Ended Statement.
 
+# practice :- 
+heroes=["Ironman","Captain America","Thor","Hulk","Black Widow","Hawkeye"]
+# traverse the list using while loop and print each hero name.
+i=0
+while i < len(heroes): # Stopping Condition.
+    print(heroes[i]) # Print Statement.
+    i+=1 # Iterator Update.
+print("Loop Ended")
+
+
 
 
 
