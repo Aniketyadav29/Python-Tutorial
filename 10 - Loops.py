@@ -103,6 +103,14 @@ print("Loop Ended")
 # Break:- Break statement is used to terminate the loop when a certain condition is met.
 # Continue :- terminates the current iteration of the loop and jumps to the next iteration.
 
+# Example of Break:-
+i=1
+while(i<=10): # Stopping Condition.
+    print(i)
+    if (i==5):
+        break # it will terminate the loop when i is equal to 5
+    i+=1
+print("Loop Ended")
 
 
 
