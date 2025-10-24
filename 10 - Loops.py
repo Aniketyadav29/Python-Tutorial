@@ -124,6 +124,14 @@ while(i<=10):
      i+=1
      print("finding")
 
+#  Example of Continue:-
+i=0
+while(i<10): # Stopping Condition.
+    i+=1
+    if (i==5):
+        continue # it will skip the iteration when i is equal to 5
+    print(i)
+
 
 
 
