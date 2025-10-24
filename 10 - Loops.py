@@ -98,6 +98,12 @@ while(i<=10):
     i+=1
 print("Loop Ended")
 
+# Break & Continue :- 
+
+# Break:- Break statement is used to terminate the loop when a certain condition is met.
+# Continue :- terminates the current iteration of the loop and jumps to the next iteration.
+
+
 
 
 
