@@ -112,6 +112,19 @@ while(i<=10): # Stopping Condition.
     i+=1
 print("Loop Ended")
 
+# Example No.2 of Break:-
+
+nums=[1,4,9,16,25,36,49,64,81,100]
+x=36
+i=1
+while(i<=10):
+     if (nums[i]==x):
+         print("found at index:",i)
+         break
+     i+=1
+     print("finding")
+
+
 
 
 
