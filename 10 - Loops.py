@@ -204,6 +204,13 @@ for i in range(101,0,-1): # Iteration Variable.
     print(i) # Print Statement.
 
 
+# Practice :-
+n=int(input("Enter your number:"))
+for i in range(1,11): # Iteration Variable.
+    print(n,"x",i,"=",n*i) # Print Statement.
+
+
+
 
 
 
