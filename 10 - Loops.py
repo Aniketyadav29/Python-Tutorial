@@ -138,6 +138,17 @@ veggies=["carrot","broccoli","spinach","potato","onion"]
 for value in veggies: # Iteration Variable.
  print(value) # Print Statement.
 
+# Examole No.2:- 
+tup=(1,2,3,4,5)
+for num in tup: # Iteration Variable.
+     print(num) # Print Statement.
+
+# Example No.3:-
+str="Aniket Yadav"
+for char in str: # Iteration Variable.
+    print(char) # Print Statement.
+
+
 
 
 
