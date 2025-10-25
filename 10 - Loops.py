@@ -148,6 +148,20 @@ str="Aniket Yadav"
 for char in str: # Iteration Variable.
     print(char) # Print Statement.
 
+# Example No.4:-
+str="Aniket Yadav"
+for char in str: # Iteration Variable.
+    if(char == "v"):
+        print("Found it!")
+        break
+    print(char) # Print Statement.
+
+# practice :- print the elements from following list using for loop.
+nums=[1,4,9,16,25,36,49,64,81,100]
+list=[1,4,9,16,25,36,49,64,81,100]
+for val in list: # Iteration Variable.
+    print(val) # Print Statement.
+
 
 
 
