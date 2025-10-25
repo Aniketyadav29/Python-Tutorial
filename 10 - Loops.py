@@ -161,6 +161,47 @@ nums=[1,4,9,16,25,36,49,64,81,100]
 list=[1,4,9,16,25,36,49,64,81,100]
 for val in list: # Iteration Variable.
     print(val) # Print Statement.
+# Practice :- 
+nums = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+x = 100
+
+idx = 0
+for el in nums:  # Iteration Variable.
+    if (el == x):
+        print(f"found it at index: {idx}!")
+        break  # Stop the loop once the element is found
+    idx += 1  # Increment the index for the *next* element check
+
+# Range Function:- Range function is used to generate a sequence of numbers.Start from 0 by default and increments by 1 (by default) and stops before a specified number.
+# Example No.1:-
+seq= range(5) # Iteration Variable.
+for i in seq: # Iteration Variable.
+    print(i) # Print Statement.
+
+Range(start?,stop,step?):-
+seq= range(5) # Iteration Variable. # range(stop)
+for i in seq: # Iteration Variable.
+    print(i) # Print Statement.
+
+seq1= range(2,10) # Iteration Variable. # range(start,stop)
+for i in seq1: # Iteration Variable.
+    print(i) # Print Statement.
+
+seq2= range(1,10,2) # Iteration Variable. # range(start,stop,step)
+for i in seq2: # Iteration Variable.
+    print(i) # Print Statement.
+
+# Example No.2:-
+for i in range(2,100,2): # Iteration Variable.
+    print(i) # Print Statement.
+
+# Practice :-
+for i in range(1,101,1): # Iteration Variable.
+    print(i) # Print Statement.
+
+# Practice :-
+for i in range(101,0,-1): # Iteration Variable.
+    print(i) # Print Statement.
 
 
 
