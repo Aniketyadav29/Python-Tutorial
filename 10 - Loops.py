@@ -132,6 +132,13 @@ while(i<10): # Stopping Condition.
         continue # it will skip the iteration when i is equal to 5
     print(i)
 
+# For Loop:- For loop is used to iterate over a sequence (list, tuple, string) or other iterable objects.
+
+veggies=["carrot","broccoli","spinach","potato","onion"]
+for value in veggies: # Iteration Variable.
+ print(value) # Print Statement.
+
+
 
 
 
