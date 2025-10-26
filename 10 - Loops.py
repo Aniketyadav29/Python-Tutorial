@@ -234,6 +234,15 @@ for i in range(1,n+1): # Iteration Variable.
     factorial=factorial*i # Print Statement.  
 print("The factorial of the number is:",factorial)
 
+# using while loop
+n=int(input("Enter your number:"))
+factorial=1
+i=1
+while(i<=n): # Stopping Condition.
+    factorial=factorial*i # Print Statement.
+    i+=1
+
+
 
 
 
