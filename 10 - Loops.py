@@ -208,6 +208,18 @@ for i in range(101,0,-1): # Iteration Variable.
 n=int(input("Enter your number:"))
 for i in range(1,11): # Iteration Variable.
     print(n,"x",i,"=",n*i) # Print Statement.
+ 
+# Practice:-WAP a program to find the sum of first n numbers using while loop.
+
+n=int(input("Enter your number:"))
+sum=0
+for i in range(1,n+1): # Iteration Variable.
+    
+    sum=sum+i # Print Statement.
+print("The sum of first n numbers is:",sum)
+
+
+
 
 
 
