@@ -218,6 +218,15 @@ for i in range(1,n+1): # Iteration Variable.
     sum=sum+i # Print Statement.
 print("The sum of first n numbers is:",sum)
 
+# using while loop
+n=int(input("Enter your Number:"))
+sum=0
+i=1
+while(i<=n): # Stopping Condition.
+    sum=sum+i # Print Statement.
+    i+=1
+print("The sum of first n numbers is:",sum)
+
 
 
 
