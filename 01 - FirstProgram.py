@@ -834,11 +834,49 @@ for el in nums:  # Iteration Variable.
         break  # Stop the loop once the element is found
     idx += 1  # Increment the index for the *next* element check
 
+# Range Function:- Range function is used to generate a sequence of numbers.Start from 0 by default and increments by 1 (by default) and stops before a specified number.
+# Example No.1:-
+seq= range(5) # Iteration Variable.
+for i in seq: # Iteration Variable.
+    print(i) # Print Statement.
+
+# Range(start?,stop,step?):-
+seq= range(5) # Iteration Variable. # range(stop)
+for i in seq: # Iteration Variable.
+    print(i) # Print Statement.
+
+seq1= range(2,10) # Iteration Variable. # range(start,stop)
+for i in seq1: # Iteration Variable.
+    print(i) # Print Statement.
+
+seq2= range(1,10,2) # Iteration Variable. # range(start,stop,step)
+for i in seq2: # Iteration Variable.
+    print(i) # Print Statement.
+
+# Example No.2:-
+for i in range(2,100,2): # Iteration Variable.
+    print(i) # Print Statement.
+
+# Practice :-
+for i in range(1,101,1): # Iteration Variable.
+    print(i) # Print Statement.
+
+# Practice :-
+for i in range(101,0,-1): # Iteration Variable.
+    print(i) # Print Statement.
+
+# Practice :-
+n=int(input("Enter your number:"))
+for i in range(1,11): # Iteration Variable.
+    print(n,"x",i,"=",n*i) # Print Statement.
+
+
 
 
 
 
  
+
 
 
 
