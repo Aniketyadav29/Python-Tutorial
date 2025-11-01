@@ -1,5 +1,5 @@
 
-# List:-
+# List:- List is mutable .
 
 Marks=[23,56.3,56,78,90]
 print(Marks)
