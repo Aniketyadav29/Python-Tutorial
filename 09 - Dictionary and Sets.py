@@ -59,8 +59,7 @@ print(student)
 student.update({"student4":{"Name":"Anjali Yadav","Age":18,"Section":"2B"}}) # it adds a new key-value pair to the dictionary
 print(student)
 
-# Sets:- Sets are used to store multiple items in a single variable.
-# they are unordered, unindexed, immutable, can't accept duplicate values.  
+# Sets:- Sets are used to store multiple items in a single variable. they are unordered, unindexed, immutable, can't accept duplicate values.  
 collection={1,2,3,4,5,5,5,5}
 print(collection)
 print(type(collection))
