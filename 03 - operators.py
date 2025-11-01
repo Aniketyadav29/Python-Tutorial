@@ -1,4 +1,4 @@
-# Operators in Python :-
+# Operators in Python :- In Python, an operator is a symbol or keyword used to perform operations on values or variables.
 
 # Arithmetic Operators:-
 a=23
