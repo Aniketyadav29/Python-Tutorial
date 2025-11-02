@@ -25,7 +25,7 @@ print("the value of a>b is:",a>b) # greater than operator, 'True' because 50 is 
 
 print("the value of a<b is:",a<b)   # less than operator, 'False' because 50 is not less than 20
 
-# Assignment Operators:-
+# Assignment Operators:- Assignment operators are used to assign values to variables, and sometimes update them at the same time.
 num=5
 num+=5
 print("num is:",num)
