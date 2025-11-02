@@ -1,6 +1,6 @@
 # Operators in Python :- In Python, an operator is a symbol or keyword used to perform operations on values or variables.
 
-# Arithmetic Operators:-
+# Arithmetic Operators:- Arithmetic operators are used to perform mathematical calculations like addition, subtraction, multiplication, etc.
 a=23
 b=34
 print("The value of a+b is",a+b)
@@ -10,7 +10,7 @@ print("The value of a/b is",a/b)
 print("The value of a%b is",a%b)
 print("The value of a//b is",a//b)
 
-# Relational Operators:-
+# Relational Operators:- These operators are used to compare two values or expressions, and the result is always a Boolean value — either True or False.
 a=50
 b=20
 print("The value of a==b is",a==b) # equality operator ,'False' because 50 is not equal to 20
