@@ -49,7 +49,7 @@ num=5
 num **= 5
 print("num is:",num)
 
-# Logical Operators:-
+# Logical Operators:-they are used to combine conditional statements and return either True or False.
 
 a=True
 b=False
