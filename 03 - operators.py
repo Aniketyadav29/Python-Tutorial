@@ -1,7 +1,7 @@
 # Operators in Python :- In Python, an operator is a symbol or keyword used to perform operations on values or variables.
 
 # Arithmetic Operators:- Arithmetic operators are used to perform mathematical calculations like addition, subtraction, multiplication, etc.
-a=23
+a=45
 b=65
 print("The value of a+b is",a+b)
 print("The value of a-b is",a-b)
