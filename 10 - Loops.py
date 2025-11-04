@@ -1,7 +1,6 @@
 # Loops:- Loops are used to execute a block of code repeatedly until a certain condition is met.
 
 # While loop :-
- # While Condition :- 
 # Example No.1:- 
 count=0 # Iterator Initialization.
 while (count<5): # Stopping Condition.
