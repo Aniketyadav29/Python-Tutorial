@@ -2,7 +2,7 @@
 
 # Arithmetic Operators:- Arithmetic operators are used to perform mathematical calculations like addition, subtraction, multiplication, etc.
 a=23
-b=34
+b=65
 print("The value of a+b is",a+b)
 print("The value of a-b is",a-b)
 print("The value of a*b is",a*b)
