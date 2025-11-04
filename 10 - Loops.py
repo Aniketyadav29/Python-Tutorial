@@ -3,7 +3,7 @@
 # While loop :-
 # While Condition:-
 # Example No.1:- 
- # Iterator Initialization.
+ Count 0 # Iterator Initialization.
 while (count<5): # Stopping Condition.
     print("hello world")
     count+=1 # Iterator Update.
