@@ -53,3 +53,26 @@ calc_average(a,b,c)
 # 3. Function without parameters and with return type.
 # 4. Function with parameters and with return type.
 
+# 1. Function without parameters and without return type.
+def greet():
+    print("Hello, Welcome to Python Programming")   
+greet()
+# 2. Function with parameters and without return type.
+def greet_user(name):
+    print("Hello",name,"Welcome to Python Programming")
+greet_user("Aniket Yadav")
+greet_user("Anupam Lata Yadav")
+# 3. Function without parameters and with return type.
+def get_greeting():
+    return "Hello, Welcome to Python Programming"
+message=get_greeting()
+print(message)
+# 4. Function with parameters and with return type.
+def add_numbers(a,b):
+    return a+b
+sum=add_numbers(5,10)
+print("The sum of a and b is:",sum)
+sum=add_numbers(20,30)
+print("The sum of a and b is:",sum)
+
+
