@@ -14,3 +14,42 @@ def add_numbers(a,b): # Function Definition.
     print("The sum is:",sum) # Print Statement.
 # Function Call.
 add_numbers(4,3)
+
+# Example No.2:-
+def calc_area(Length,Breadth):
+    area=Length*Breadth
+    print("The area of the rectangle is:",area)
+    return area
+calc_area(5,10)
+
+# Example No.3:-
+def print_hello():
+    print("Hello World")
+print_hello()
+print_hello()   
+print_hello()
+print_hello()
+print_hello()
+
+# Example No.4:-
+#Calculate the average of 3 numbers.
+def calc_average(num1,num2,num3):
+    average=(num1+num2+num3)/3
+    print("the averageof the numbers is :", average)
+    return average
+calc_average(10,20,30)
+
+# Example No.5:-
+a=num1=int(input("Enter your first number:"))
+b=num2=int(input("Enter your second number:"))
+c=num3=int(input("Enter your third number:"))
+Average=(a+b+c)/3
+print("the average of the numbers is :",Average)
+calc_average(a,b,c)
+
+# types of function:-
+# 1. Function without parameters and without return type.
+# 2. Function with parameters and without return type.
+# 3. Function without parameters and with return type.
+# 4. Function with parameters and with return type.
+
