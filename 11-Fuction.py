@@ -89,6 +89,14 @@ def string_length(a):
     return length
 string_length("Aniket Yadav")
 string_length("Apna College")
+#WAF to print the element of a list in a single line . (list is a parameter )
+def print_list_elements(lst):
+    for element in lst:
+        print(element, end=' ')
+    print()  # for newline after printing all elements
+
+print_list_elements([1, 2, 3, 4, 5])
+
 
 
 
