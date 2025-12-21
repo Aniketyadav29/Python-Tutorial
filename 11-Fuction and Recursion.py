@@ -114,6 +114,13 @@ convert_usd_to_inr(100)
 
 # Recursion:- Recursion is a process in which a function calls itself directly or indirectly. 
 #The main idea of recursion is to break a complex problem into smaller sub-problems that are easier to solve.
+# Recursive Function:-
+def show(n):
+    if(n==0): # Base Case.
+        return
+    print(n)
+    show(n-1)   
+show(5)
 
 
 
