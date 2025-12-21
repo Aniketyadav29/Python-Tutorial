@@ -73,6 +73,24 @@ def add_numbers(a,b):
 sum=add_numbers(5,10)
 print("The sum of a and b is:",sum)
 sum=add_numbers(20,30)
-print("The sum of a and b is:",sum)
+print("The sum of a and b is:",sum)# Default Arguments:- Default arguments are the arguments that are passed to the function when no value is provided for that argument.
+def calc_product(a=2,b=4):
+    product=a*b
+    print("The product of a and b is:",product)
+    return product
+calc_product() # it will use the default values of a and b
+calc_product(5) # it will use the default value of b
+
+#Exercise:-
+# WAF to print the length of the string.
+def string_length(a):
+    length=len(a)
+    print("The length of the string is:",length)
+    return length
+string_length("Aniket Yadav")
+string_length("Apna College")
+
+
+
 
 
