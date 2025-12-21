@@ -96,6 +96,15 @@ def print_list_elements(lst):
     print()  # for newline after printing all elements
 
 print_list_elements([1, 2, 3, 4, 5])
+# WAF to find the factorial of a number n.
+def calc_factorial(n):
+    factorial=1
+    for i in range(1,n+1):
+        factorial=factorial*i
+    print("The factorial of the number is:",factorial)
+    return factorial    
+calc_factorial(5)
+calc_factorial(7)
 
 
 
