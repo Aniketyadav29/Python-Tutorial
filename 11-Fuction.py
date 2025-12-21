@@ -105,6 +105,13 @@ def calc_factorial(n):
     return factorial    
 calc_factorial(5)
 calc_factorial(7)
+#WAF to convert USD to INR.
+def convert_usd_to_inr(usd):
+    inr=usd*50.35
+    print(inr)
+    return inr
+convert_usd_to_inr(100)
+
 
 
 
