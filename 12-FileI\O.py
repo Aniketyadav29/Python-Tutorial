@@ -19,4 +19,6 @@ f=open("demo.txt","r")
 content=f.read()
 print(content)
 print(type(content))
-f.close() # Close the file
+f.close() # Close the file.
+
+
