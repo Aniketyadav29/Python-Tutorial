@@ -41,5 +41,40 @@ f=open("demo.txt","w")
 content=f.write("I am aniket yadav , a frontend developer.")
 f.close()
 
+#Example No.5:-
+f=open("demo.txt","a")
+content=f.write("\nI am learning python programming language.")
+f.close()
+
+# Example No.6:-
+f=open("sample.txt","w")
+f.close()
+
+# Example No.7:-
+f=open("demo.txt","r+")
+content=f.read()
+print(content)
+f.write("I love coding.")
+f.close()
+
+#with Syntax:-
+with open("demo.txt","r") as f:
+    content=f.read()
+    print(content)
+
+#Example No.2:-
+with open("demo.txt","r") as f:
+    data = f.read()
+    print(data)
+
+
+# Deleting files:- using os module
+
+#module is a file containing Python code. It can define functions, classes, and variables. A module can also include runnable code.
+
+import os
+os.remove("sample.txt")
+
+
 
 
