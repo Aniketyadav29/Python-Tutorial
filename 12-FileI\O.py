@@ -101,6 +101,18 @@ else:
     print("word not found")
 f.close()
 
+# another Example:- 
+
+f=open("practice.txt","r")
+
+data=f.read()
+if "programming" in data:
+    print("word found")
+else:
+    print("word not found")
+    f.close()
+
+
 
 
 
