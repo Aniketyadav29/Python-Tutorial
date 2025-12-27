@@ -112,6 +112,15 @@ else:
     print("word not found")
     f.close()
 
+# Practice 4:- WAF to find in which line of the file does the "programming" occurs. print -1 if not found.
+f=open("Practice.txt","r")
+data=f.read()
+if "programming" in data:
+    print("word found")
+else:
+    print("word not found")
+f.close()
+
 
 
 
