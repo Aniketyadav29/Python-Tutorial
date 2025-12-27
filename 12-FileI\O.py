@@ -75,6 +75,14 @@ with open("demo.txt","r") as f:
 import os
 os.remove("sample.txt")
 
+# Example No.2:- create a file with name of "pratice.txt" and then add following data 
+# hii Everyone
+# welcome to file I\O in python
+# i like programming in python
+f=open("practice.txt","w")
+data=f.write("hii Everyone\n welcome to file I\O in python\n i like programming python")
+f.close()
+
 
 
 
