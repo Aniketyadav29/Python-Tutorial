@@ -92,6 +92,15 @@ f=open("practice.txt","w")
 f.write(new_data)
 f.close()
 
+# search for a word "learning" in the file "practice.txt" .
+f=open("practice.txt","r")
+data=f.read()
+if"learning" in data:
+    print("word found")
+else:
+    print("word not found")
+f.close()
+
 
 
 
