@@ -44,4 +44,26 @@ print(s1.name) # accessing attribute.
 s2=student("Anupam Lata Yadav")
 print(s2.name) # accessing attribute.
 
+# Example No.3:-
+class student:
+    def __init__(self,name,age): # constructor
+        self.name=name  # attribute
+        self.age=age    # attribute
+
+s1=student("Aniket Yadav",26)
+print(s1.name) # accessing attribute
+print(s1.age)  # accessing attribute.
+
+#Attribute:-
+class Student:
+    College="Apna College" # class attribute
+    def __init__(self,name,age): # constructor
+        self.name=name  # instance attribute
+        self.age=age    # instance attribute
+
+s1=Student("Aniket Yadav",26)
+print(s1.name) # accessing instance attribute
+print(s1.age)  # accessing instance attribute
+print(s1.College) # accessing class attribute
+
 
