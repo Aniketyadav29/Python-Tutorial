@@ -64,6 +64,16 @@ class Student:
 s1=Student("Aniket Yadav",26)
 print(s1.name) # accessing instance attribute
 print(s1.age)  # accessing instance attribute
-print(s1.College) # accessing class attribute
+print(s1.College) # accessing class attribute.
+s2=Student("Anupam Lata Yadav",22)
+print(s2.name) # accessing instance attribute
+print(s2.age)  # accessing instance attribute
+print(s2.College) # accessing class attribute.
+
+# obj Attributes > class Attributes.#
+
+# Methods:- A method is a function that is associated with an object. It is a behavior of an object. In Python, methods are defined using the def keyword.
+
+
 
 
