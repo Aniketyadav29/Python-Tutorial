@@ -29,4 +29,19 @@ print(car1.model) # accessing attribute
 print(car1.year)  # accessing attribute
 print(car1.color) # accessing attribute.
 
+#Constructor:- A constructor is a special method that is called when an object is created. It is used to initialize the attributes of the object. In Python, the constructor is defined using the __init__() method.
+
+#Creating a class with constructor
+
+class student:
+    def __init__(self): # constructor
+        self.name="Full Name" # attribute.
+
+# creating an object
+s1=student("Aniket Yadav")
+print(s1.name) # accessing attribute.
+
+s2=student("Anupam Lata Yadav")
+print(s2.name) # accessing attribute.
+
 
