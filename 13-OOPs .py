@@ -1,1 +1,18 @@
+# OOPs:- object-oriented programming is a programming paradigm that uses "objects" to design software. An object is an instance of a class. A class is a blueprint for creating objects. OOPs is used to structure a program into simple,
+#  reusable pieces of code blueprints (usually called classes), which are used to create individual instances of objects. 
+# Object:- An object is an instance of a class. It is a real-world entity that has attributes and behavior.
+# Class:- A class is a blueprint for creating objects. It is a user-defined data type that contains attributes and methods.
+# Attribute:- An attribute is a characteristic of an object. It is a variable that is associated with an object.
+# Method:- A method is a function that is associated with an object. It is a behavior of an object. 
+
+# Example No.1:-
+#creating a class
+class student:
+    name="Aniket Yadav" # attribute
+    age=26  # attribute 
+
+#creating an object
+s1=student()
+print(s1.name) # accessing attribute
+print(s1.age)  # accessing attribute
 
