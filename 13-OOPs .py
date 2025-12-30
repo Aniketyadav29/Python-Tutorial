@@ -16,3 +16,17 @@ s1=student()
 print(s1.name) # accessing attribute
 print(s1.age)  # accessing attribute
 
+# Example No.2:-
+class Car:
+    brand="Toyota" # attribute
+    model="Camry"  # attribute
+    year=2020      # attribute
+    color="Red"    # attribute
+
+car1=Car()
+print(car1.brand) # accessing attribute
+print(car1.model) # accessing attribute
+print(car1.year)  # accessing attribute
+print(car1.color) # accessing attribute.
+
+
