@@ -6,7 +6,7 @@
 # Method:- A method is a function that is associated with an object. It is a behavior of an object. 
 
 # Example No.1:-
-#creating a class
+#creating a class:-
 class student:
     name="Aniket Yadav" # attribute
     age=26  # attribute 
