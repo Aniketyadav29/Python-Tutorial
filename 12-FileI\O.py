@@ -57,7 +57,7 @@ print(content)
 f.write("I love coding.")
 f.close()
 
-#with Syntax:-
+# with Syntax:-
 with open("demo.txt","r") as f:
     content=f.read()
     print(content)
