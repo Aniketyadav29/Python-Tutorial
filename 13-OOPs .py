@@ -48,7 +48,7 @@ print(s2.name) # accessing attribute.
 class student:
     def __init__(self,name,age): # constructor
         self.name=name  # attribute
-        self.age=age    # attribute
+        self.age=age    # attribute.
 
 s1=student("Aniket Yadav",26)
 print(s1.name) # accessing attribute
