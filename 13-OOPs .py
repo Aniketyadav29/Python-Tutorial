@@ -11,7 +11,7 @@ class student:
     name="Aniket Yadav" # attribute
     age=26  # attribute 
 
-#creating an object
+#creating an object:-
 s1=student()
 print(s1.name) # accessing attribute
 print(s1.age)  # accessing attribute
