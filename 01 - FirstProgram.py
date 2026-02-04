@@ -906,11 +906,47 @@ while(i<=n): # Stopping Condition.
 
 
 
+# Code With Harry:-
+
+
+
+
+
+
+# Python :- python is a high-level, interpreted programming language known for its readability and versatility.
+
+# Module :- A module in Python is a file containing Python code that can define functions, classes, and variables. It allows for code organization and reuse.
+ #Types of Modules :-
+ #1. Built-in Modules :- These are modules that come pre-installed with Python, such as
+    #   math, sys, os, datetime, etc.
+#2. User-defined Modules :- These are modules created by users to organize their code into separate files.
+
+import pyjokes  # Importing the built-in module 'pyjokes' for generating programming jokes
+joke=pyjokes.get_joke()  # Getting a random joke using the get_joke() function from the pyjokes module
+print(joke)  # Printing the joke to the console
+
+# comment :- A comment in Python is a line of text that is ignored by the interpreter. It is used to explain code and improve readability. Comments start with the '#' symbole.
+#types of comments :-
+#1. Single-line Comments :- These comments occupy a single line and start with the '#' symbol
+# This is a single-line comment explaining the code below
+print("Hello, World!")  # This line prints a greeting message to the console
+#2. Multi-line Comments :- These comments span multiple lines and are enclosed within triple quotes (
+# ''' ''' or """ """).
+# '''This is a multi-line comment.
+
+
+
+
+
+
+
+
 
 
 
 
  
+
 
 
 
