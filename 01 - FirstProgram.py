@@ -960,6 +960,10 @@ Lights the traveler in the dark,
 Though I know not what you are,
 Twinkle, twinkle, little star.""")
 
+# Problem 2:-
+import pyttsx3
+engine = pyttsx3.init()
+
 
 
 
@@ -971,6 +975,7 @@ Twinkle, twinkle, little star.""")
 
 
  
+
 
 
 
