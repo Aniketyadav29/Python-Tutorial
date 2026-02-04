@@ -970,6 +970,25 @@ engine = pyttsx3.init()
 # engine.say("I will speak this text")
 # engine.runAndWait()
 
+# Varriable:-
+# A variable in Python is a named location used to store data in memory. It acts as a container for values that can be changed during program execution.
+# Variables are created by assigning a value to a name using the assignment operator (=).
+
+# Example of variable assignment
+a=10 # a is a identifier (variable name) assigned the value 10
+b=5
+sum=a+b
+
+print("The sum of a and b is:",sum)
+
+#Data Types:-
+# Data types in Python define the type of data that a variable can hold. Common data types include:
+# 1. Integer (int): Whole numbers, e.g., 1, -5
+# 2. Float (float): Decimal numbers, e.g., 3.14, -0.001
+# 3. String (str): Text enclosed in quotes, e.g., "Hello", 'Python'
+# 4. Boolean (bool): Represents True or False values
+# 5. NoneType (NoneType): Represents the absence of a value, e.g., None
+
 
 
 
@@ -981,6 +1000,7 @@ engine = pyttsx3.init()
 
 
  
+
 
 
 
