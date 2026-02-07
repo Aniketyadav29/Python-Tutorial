@@ -12,6 +12,10 @@ for i in range(1,n+1):
 
 
 # While loop :-
+i=10
+while i>0:
+       print(i)
+       i-=2
 # While Condition:-
 # Example No.1:- 
  Count 0 # Iterator Initialization.
