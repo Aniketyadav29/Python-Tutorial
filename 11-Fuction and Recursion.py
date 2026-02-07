@@ -7,27 +7,24 @@ b=3
 sum=a+b 
 print(sum) #print("This is addition function")
 
-#Example 
+#Example 1:-
    
-#1
+# A.
 def add_numbers(a,b): # Function Definition.
     sum=a+b
     print("The sum is:",sum) # Print Statement.
 # Function Call.
 add_numbers(4,3)
-#2
+# B.
 def print_even(n):
     for i in range(1,n+1):
         print(i*2)
 print_even(5)
 
-#3.
+# C.
 def power(base,exp):
     return base**exp
 print(power(3,3))
-
-
-
 
 # Example No.2:-
 def calc_area(Length,Breadth):
@@ -140,6 +137,15 @@ show(5)
 for i in range(1,100):
     if i%3==0 and i%5==0:
         print(i)
+
+# print age category of a person based on age
+def age_catagory(age):
+    if age>60:
+        print("senior")
+    else:
+        print("junior")
+age_catagory(65)
+
 
 
 
