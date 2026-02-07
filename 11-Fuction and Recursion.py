@@ -7,13 +7,22 @@ b=3
 sum=a+b 
 print(sum) #print("This is addition function")
 
-# other more example 
+#Example 
    
+#1
 def add_numbers(a,b): # Function Definition.
     sum=a+b
     print("The sum is:",sum) # Print Statement.
 # Function Call.
 add_numbers(4,3)
+#2
+def print_even(n):
+    for i in range(1,n+1):
+        print(i*2)
+print_even(5)
+
+
+
 
 # Example No.2:-
 def calc_area(Length,Breadth):
