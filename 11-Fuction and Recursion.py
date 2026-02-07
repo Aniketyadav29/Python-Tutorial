@@ -168,6 +168,15 @@ while(i<=51):
     i+=1
 print(count)
 
+# how will you count how many numbers between 1 and 50 are divisible by 4 using function
+def count_divisible_by_4(n):
+    count=0
+    for i in range(1,n+1):
+        if i%4==0:
+            count+=1
+    return count
+print(count_divisible_by_4(50))
+
 
 
 
