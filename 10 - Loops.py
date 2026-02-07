@@ -9,6 +9,9 @@ n=6
 for i in range(1,n+1):
     if i%2==1:
      print(i)    #print(i)
+# Example:-
+for i in range(1001,1050):
+       print(i)
 
 
 # While loop :-
