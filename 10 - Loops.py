@@ -17,6 +17,10 @@ while i>0:
        print(i)
        i-=2
 # While Condition:-
+i=1001
+while(i<=1050):
+       print(i)
+       i+=1
 # Example No.1:- 
  Count 0 # Iterator Initialization.
 while (count<5): # Stopping Condition.
