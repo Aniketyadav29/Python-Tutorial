@@ -146,6 +146,19 @@ def age_catagory(age):
         print("junior")
 age_catagory(65)
 
+# write a function that prints first N even numbers
+def num(n):
+    for i in range(1,n+1):
+        print(i*2)
+num(50)
+
+#count how many numbers between 1 and 50 are divisible by 4
+count=0
+for i in range(1,51):
+    if i%4==0:
+        count+=1
+print(count)
+
 
 
 
