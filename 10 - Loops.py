@@ -1,4 +1,15 @@
 # Loops:- Loops are used to execute a block of code repeatedly until a certain condition is met.
+# for variable in range(start, stop):
+       #print(variable)
+# For loop:-
+
+for a in range(0,5):
+    print("Aniket")
+n=6
+for i in range(1,n+1):
+    if i%2==1:
+     print(i)    #print(i)
+
 
 # While loop :-
 # While Condition:-
