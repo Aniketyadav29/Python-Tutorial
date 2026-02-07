@@ -159,6 +159,15 @@ for i in range(1,51):
         count+=1
 print(count)
 
+# how will you count how many numbers between 1 and 50 are divisible by 4 using while loop
+count=0
+i=1
+while(i<=51):
+    if i%4==0:
+        count+=1
+    i+=1
+print(count)
+
 
 
 
