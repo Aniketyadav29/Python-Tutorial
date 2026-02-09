@@ -1,5 +1,15 @@
 
 # List:- List is mutable .
+# List is a collection which is ordered and changeable. Allows duplicate members.
+fruits=["apple","banana","orange","grape","kiwi",90,67,45,23,12]
+appended_fruits=fruits.append("mango")
+fruits.insert(2,"Watermelon ")
+fruits.remove("banana")
+fruits.pop(3)
+fruits[0]=("Pineapple")
+# fruits.sort()
+print(fruits[0])
+print(fruits)
 
 Marks=[23,56.3,56,78,90]
 print(Marks)
