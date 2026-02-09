@@ -10,7 +10,7 @@ fruits[0]=("Pineapple")
 # fruits.sort()
 print(fruits[0])
 print(fruits)
-
+# Example:- 
 name =("Aniket") 
 for i in name:
     print(i)
