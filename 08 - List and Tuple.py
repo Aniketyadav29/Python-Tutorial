@@ -11,6 +11,11 @@ fruits[0]=("Pineapple")
 print(fruits[0])
 print(fruits)
 
+name =("Aniket") 
+for i in name:
+    print(i)
+    print(i,end=" ")
+
 Marks=[23,56.3,56,78,90]
 print(Marks)
 print(type(Marks))
