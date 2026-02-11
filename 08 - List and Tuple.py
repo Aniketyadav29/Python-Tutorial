@@ -169,6 +169,12 @@ list=[a,b,c,d]
 print(list)
 print(sum(list))
 
+# Write a program to count the no. of 0 in tuple.
+tuple=(0,3,0,4,0,5,0,62,0,9)
+print(tuple)
+print(tuple.count(0))
+
+
 
 
 
