@@ -155,6 +155,20 @@ print(list)
 list.sort()
 print(list) 
 
+# write a program that tuple type can not be changed .
+f=(23,45,78,90,"Aniket","Anupam",23.9,0.2)
+print(type(f))
+
+# Write a program to sum a list with 4 numbers.
+a=int(input("Enter your first number"))
+b=int(input("Enter your Second number"))
+c=int(input("Enter your Third number"))
+d=int(input("Enter your four number"))
+list=[a,b,c,d]
+# sum=(a+b+c+d)
+print(list)
+print(sum(list))
+
 
 
 
