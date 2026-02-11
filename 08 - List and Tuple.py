@@ -115,6 +115,20 @@ grades=("A","B","C","A","D","A","B")
 count=grades.count("A")
 print("The number of students with A grade is:",count) 
 
+# Example:-
+
+a=(1,2,3,4 ,False,"Rohan","Shivam")
+print(type(a))
+print(a)
+b=(1)
+print(b)
+
+no=a.count(45)
+print(no)
+c=a.index(3)
+print(c)
+print(len(a))
+
 
 
 
