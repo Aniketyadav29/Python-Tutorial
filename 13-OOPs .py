@@ -107,6 +107,18 @@ class Student:
             return"Fail"
 s=Student("Ravi", 55)
 print(s.result())
+# Another Method:-
+Student=[
+    Student("Amit",80),
+    Student("Ravi",45),
+    Student("Neha",90)
+]
+
+for s in Student:
+    if s.marks>=60:
+        print(s.name)
+
+
 
 
 
