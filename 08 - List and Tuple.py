@@ -129,6 +129,20 @@ c=a.index(3)
 print(c)
 print(len(a))
 
+# Practice :-
+#Write a program to store seven friuts in list entered by the user 
+
+a=str(input("Enter your First Fruits:"))
+b=str(input("Enter your second Fruits:"))
+d=str(input("Enter your Fourth Fruits:"))
+e=str(input("Enter your Fifth Fruits:"))
+f=str(input("Enter your sixth Fruits:"))
+g=str(input("Enter your seventh Fruits:"))
+list=[a,b,d,e,f,g]
+print(list)
+list.append("Aniket")
+print(list)
+
 
 
 
