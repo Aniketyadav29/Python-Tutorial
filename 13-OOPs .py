@@ -94,6 +94,21 @@ print(lady_1.product_details())
 print(lady_2.email)
 print(lady_3.product)
 
+# Example 2:-
+class Student:
+    def __init__(self,name,marks):
+        self.name=name
+        self.marks=marks
+
+    def result(self):
+        if self.marks>=60:
+            return"Pass"
+        else:
+            return"Fail"
+s=Student("Ravi", 55)
+print(s.result())
+
+
 
 
 
