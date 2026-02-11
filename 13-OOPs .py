@@ -75,7 +75,7 @@ print(s2.College) # accessing class attribute.
 # Methods:- A method is a function that is associated with an object. It is a behavior of an object. In Python, methods are defined using the def keyword.
 
 
-lass Dresses:
+class Dresses:
     def __init__(self, first, last, product, price):
         self.first = first
         self.last = last
@@ -85,6 +85,14 @@ lass Dresses:
 
     def product_details(self):
         return f"{self.first} {self.last} bought {self.product} for {self.price} rupees"
+lady_1 = Dresses('Anupam', 'Lata', 'Kurti', 1000)
+lady_2 = Dresses('Anushka', 'Singh', 'Saree', 2000)
+lady_3 = Dresses('Anu', 'Kushawaha', 'Top', 999)
+
+print(lady_1.product_details())
+print(lady_2.email)
+print(lady_3.product)
+
 
 
 
