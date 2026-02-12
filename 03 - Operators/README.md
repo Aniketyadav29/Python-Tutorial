@@ -1,12 +1,6 @@
 # 🐍 Mastery of Python Operators
 > A comprehensive, high-performance guide to mastering operations in Python.
 
-![Python Version](https://img.shields.io/badge/python-3.x-blue.svg?style=for-the-badge&logo=python)
-![License](https://img.shields.io/badge/license-MIT-green.svg?style=for-the-badge)
-![Status](https://img.shields.io/badge/status-active-success.svg?style=for-the-badge)
-
----
-
 ## 📌 Overview
 Operators are the building blocks of logic. This repository isn't just a code dump; it's a structured learning path for understanding how Python handles data manipulation.
 
