@@ -20,7 +20,6 @@ print(key[0])
 Student.update({"Marks":90})
 print(Student)
 #Example :-2
-
 info ={
     "key" : "value",
     "Name":"Aniket Yadav",
