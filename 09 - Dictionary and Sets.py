@@ -12,7 +12,13 @@ Student={
 print(Student)
 print(type(Student))
 Student["Branch"]="CSE"
-print(Student)  
+print(Student) 
+rint(Student.keys())
+print(Student.values())
+key=list(Student.keys())
+print(key[0])
+Student.update({"Marks":90})
+print(Student)
 #Example :-2
 
 info ={
