@@ -1,7 +1,19 @@
 # Dictionary and Sets in Python:-
 
 # Dictionary :- Dictionary are used to store data value in keys ; value = pair.
-# they are unorderd ,Mutable,can't accept duplicate keys.
+# they are unorderd ,Mutable,can't accept duplicate keys.\
+
+Student={
+    "Name":"Aniket Yadav",
+    "Class":"CS-3C",
+    "College":"BBDU",
+    "City":"Lucknow"
+}
+print(Student)
+print(type(Student))
+Student["Branch"]="CSE"
+print(Student)  
+#Example :-2
 
 info ={
     "key" : "value",
