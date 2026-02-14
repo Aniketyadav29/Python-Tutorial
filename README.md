@@ -110,13 +110,6 @@ This repository serves as a professional curriculum designed by **Aniket Yadav**
 | Abstraction | Simple interface | Driving vs Engine logic |
 
 ---
-
-## 🚀 Getting Started
-1.  **Clone the Repository**:
-    ```bash
-    git clone [https://github.com/Aniketyadav29/Python-Tutorial.git](https://github.com/Aniketyadav29/Python-Tutorial.git)
-    ```
-2.  **Run the Practice Code**:
     Navigate to the `operator` folder and run the `practice.py` file.
 
 ---
