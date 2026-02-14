@@ -1,0 +1,81 @@
+# ==========================================================
+# 10: LOOPS (WHILE & FOR) PRACTICE
+# ==========================================================
+
+# --- PART 1: WHILE LOOP BASICS ---
+print("--- Reverse Numbers 10 to 1 ---")
+i = 10
+while i >= 1:
+    print(i, end=" ")
+    i -= 1
+print("\nLoop Ended\n")
+
+
+# --- PART 2: BREAK & CONTINUE ---
+print("--- Break Example (Stop at 5) ---")
+i = 1
+while i <= 10:
+    if i == 5:
+        break
+    print(i, end=" ")
+    i += 1
+print("\n")
+
+print("--- Continue Example (Skip 5) ---")
+i = 0
+while i < 10:
+    i += 1
+    if i == 5:
+        continue
+    print(i, end=" ")
+print("\n")
+
+
+# --- PART 3: FOR LOOP & RANGE ---
+print("--- Iterating over a String ---")
+name = "Aniket Yadav"
+for char in name:
+    if char == " ": continue
+    print(char, end="-")
+print("\n")
+
+print("--- Range Function (Start, Stop, Step) ---")
+# Even numbers from 2 to 10
+for i in range(2, 11, 2):
+    print(i, end=" ")
+print("\n")
+
+
+# --- PART 4: PRACTICE QUESTIONS ---
+
+# Question: Multiplication Table
+print("--- Question: Multiplication Table ---")
+n = int(input("Enter number for table: "))
+for i in range(1, 11):
+    print(f"{n} x {i} = {n*i}")
+
+# Question: Sum of first N numbers
+print("\n--- Question: Sum of N numbers ---")
+num = int(input("Enter N: "))
+total_sum = 0
+for i in range(1, num + 1):
+    total_sum += i
+print(f"The sum of first {num} numbers is: {total_sum}")
+
+# Question: Factorial
+print("\n--- Question: Factorial ---")
+f_num = int(input("Enter number for Factorial: "))
+fact = 1
+for i in range(1, f_num + 1):
+    fact *= i
+print(f"The factorial of {f_num} is: {fact}")
+
+# Question: List Traversal
+print("\n--- Question: Traversing Heroes ---")
+heroes = ["Ironman", "Captain America", "Thor", "Hulk"]
+for hero in heroes:
+    print("Hero Name:", hero)
+
+# ==========================================================
+# Practice Session Complete!
+# ==========================================================
