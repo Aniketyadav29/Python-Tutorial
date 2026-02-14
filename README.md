@@ -1,9 +1,9 @@
 # 🎓 Python Master Class: The Complete Handbook
 > **"From Foundational Logic to Advanced Software Engineering."**
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Course Status](https://img.shields.io/badge/Status-Comprehensive-brightgreen?style=for-the-badge)
-![Author](https://img.shields.io/badge/Author-Aniket_Yadav-blue?style=for-the-badge)
+[![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org/doc/)
+[![Course Status](https://img.shields.io/badge/Status-Comprehensive-brightgreen?style=for-the-badge)](https://www.geeksforgeeks.org/python-programming-language/)
+[![Author](https://img.shields.io/badge/Author-Aniket_Yadav-blue?style=for-the-badge)](https://github.com/Aniketyadav29)
 
 ---
 
@@ -11,7 +11,6 @@
 This repository serves as a professional curriculum designed by **Aniket Yadav**. It is built to guide learners from the absolute basics of "Hello World" to building complex, real-world logic using **Object-Oriented Programming (OOPs)**. Every module below provides deep theoretical insights combined with practical analogies to make learning intuitive.
 
 ---
-
 ## 🛠️ Module 1: Syntax Foundations
 
 ### 📝 01 - Comments
