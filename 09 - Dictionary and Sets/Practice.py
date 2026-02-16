@@ -124,6 +124,8 @@ print(list)
 print(sum(list))
 
 
+
+
 # write a program that tuple type ca
 
 # write a program that tuple type ca
