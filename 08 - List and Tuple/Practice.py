@@ -115,7 +115,10 @@ p=(input("Enter your NO. :"))
 list=[m,s,z,b,d,p]
 print(list)
 list.sort()
-print(list) 
+print(list)
+
+
+
 
 
 # ==========================================================
