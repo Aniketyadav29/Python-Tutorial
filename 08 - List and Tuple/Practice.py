@@ -34,6 +34,7 @@ print("Negative [-3:-1]:", marks[-3:-1])
 print("\n")
 
 # --- PART 3: TUPLE BASICS & IMMUTABILITY ---
+# a:-
 tup = (1, 2, 3, 4, 5, 3)
 print("--- Tuple Operations ---")
 print("Type: ", type(tup))
@@ -41,6 +42,21 @@ print("Count of 3:", tup.count(3))
 print("Index of 4:", tup.index(4))
 # tup[0] = 6  # This would raise a TypeError
 print("\n")
+
+# b:-
+a=(1,2,3,4 ,False,"Rohan","Shivam")
+print(type(a))
+print(a)
+b=(1)
+print(b)
+
+no=a.count(45)
+print(no)
+c=a.index(3)
+print(c)
+print(len(a))
+
+
 
 # --- PART 4: PRACTICE QUESTIONS ---
 
