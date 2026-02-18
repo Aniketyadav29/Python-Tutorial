@@ -1,6 +1,20 @@
 # ==========================================================
 # 08: LISTS & TUPLES PRACTICE
 # ==========================================================
+#Example :-
+l1=[2,4,3,6,7,9,5,]
+l1.sort()
+print(l1)
+l1.insert(2,333)
+print(l1) 
+l1.pop(2)
+l1.append("87")
+print(l1)
+l1.remove(9)
+print(l1)
+l1.reverse()
+print(l1)
+
 
 # --- PART 1: LIST BASICS & MUTABILITY ---
 fruits = ["apple", "banana", "orange", "grape", "kiwi", 90, 67, 45, 23, 12]
