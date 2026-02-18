@@ -90,6 +90,20 @@ print("\n--- Question: Count Zeros ---")
 zeros_tup = (0, 3, 0, 4, 0, 5, 0, 62, 0, 9)
 print("Number of zeros:", zeros_tup.count(0))
 
+# Question 5:
+#Write a program to store seven friuts in list entered by the user 
+
+a=str(input("Enter your First Fruits:"))
+b=str(input("Enter your second Fruits:"))
+d=str(input("Enter your Fourth Fruits:"))
+e=str(input("Enter your Fifth Fruits:"))
+f=str(input("Enter your sixth Fruits:"))
+g=str(input("Enter your seventh Fruits:"))
+list=[a,b,d,e,f,g]
+print(list)
+list.append("Aniket")
+print(list)
+
 # ==========================================================
 # Practice Session Complete!
 # ==========================================================
