@@ -93,6 +93,16 @@ print(list)
 list.sort()
 print(list) 
 
+Write a program to sum a list with 4 numbers.
+# a=int(input("Enter your first number"))
+# b=int(input("Enter your Second number"))
+# c=int(input("Enter your Third number"))
+# d=int(input("Enter your four number"))
+# list=[a,b,c,d]
+# # sum=(a+b+c+d)
+# print(list)
+# print(sum(list)
+
 
 # 09 - Dictionary and Sets
 print("--- 09 Dictionary and Sets ---")
