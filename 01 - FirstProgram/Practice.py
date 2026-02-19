@@ -67,6 +67,12 @@ tup = (1, 2, 3) # Tuple is immutable
 print(tup)
 print("\n")
 
+# Write a program to count the no. of 0 in tuple.
+
+
+
+
+
 # b :-
 # Write a program to store seven friuts in list entered by the user 
 
