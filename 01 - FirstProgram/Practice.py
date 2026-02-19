@@ -80,6 +80,18 @@ list=[a,b,d,e,f,g]
 print(list)
 list.append("Aniket")
 print(list)
+# c:-
+# Write a program to print to marks of a student and desplay it into sorted maner.
+m=(input("Enter your NO. :"))
+s=(input("Enter your NO. :"))
+z=(input("Enter your NO. :"))
+b=(input("Enter your NO. :"))
+d=(input("Enter your NO. :"))
+p=(input("Enter your NO. :"))
+list=[m,s,z,b,d,p]
+print(list)
+list.sort()
+print(list) 
 
 
 # 09 - Dictionary and Sets
