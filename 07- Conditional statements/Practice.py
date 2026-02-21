@@ -117,6 +117,8 @@ p4="Click this ."
 message=input("Enter your Message : ")
 if((p1 in message)or(p2 in message)or(p3 in message)or (p4 in message)):
     print ("This is spam message.")
+else :
+    print("This is not a spam message .")
 
 # ==========================================================
 # Practice Session Complete!
