@@ -109,6 +109,15 @@ if (d>=40 and a>=33 and b>=33 and c>=33):
 else:
     print("Student has failed in the exam ." ,d)
 
+# Write a program to detect the spam words .
+p1="Make a lot of money ."
+p2="buy now ."
+p3="Subscribe now ."
+p4="Click this ."
+message=input("Enter your Message : ")
+if((p1 in message)or(p2 in message)or(p3 in message)or (p4 in message)):
+    print ("This is spam message.")
+
 # ==========================================================
 # Practice Session Complete!
 # ==========================================================
