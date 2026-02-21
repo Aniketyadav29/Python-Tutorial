@@ -89,6 +89,16 @@ if m % 7 == 0:
 else:
     print("The Number is not Multiple by 7")
 
+      #  // Quiz//   #
+
+# write a program to find the greatest number of four numbers enterd by the users 
+a=int(input("Enter the number 1:"))
+b=int(input("Enter the number 2:"))
+a2=int(input("Enter the number 3:"))
+b2=int(input("Enter the number 4:"))
+if(a>b and a>a2 and a>b2):
+    print(a)
+
 # ==========================================================
 # Practice Session Complete!
 # ==========================================================
