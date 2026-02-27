@@ -67,7 +67,7 @@ tup = (1, 2, 3) # Tuple is immutable
 print(tup)
 print("\n")
 
-# Write a program to count the no. of 0 in tuple.
+
 
 
 
