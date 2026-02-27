@@ -58,7 +58,7 @@ else:
     print("Grade C")
 print("\n")
 
-
+# Write a program to check the in the post.
 post=input("Enter your Post : ")
 # post="hey Aniket bhai is good  aniket is very good and harry is also good  "
 if ("Aniket".lower() in post.lower()):
