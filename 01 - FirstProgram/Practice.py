@@ -58,6 +58,15 @@ else:
     print("Grade C")
 print("\n")
 
+
+post=input("Enter your Post : ")
+# post="hey Aniket bhai is good  aniket is very good and harry is also good  "
+if ("Aniket".lower() in post.lower()):
+    print ("yes")
+else:
+    print("NO")
+
+
 # 08 - List and Tuple
 print("--- 08 List and Tuple ---")
 marks_list = [78, 89, 90]
