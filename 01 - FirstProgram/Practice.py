@@ -58,6 +58,17 @@ else:
     print("Grade C")
 print("\n")
 
+ # write a program to find out whether a student has passed or failed if it required a total 40% and atleast 33% in each subject to pass . assume 3 subject and total marks as an input from user.
+a=int(input("Enter your 1st Subject marks : "))
+b=int(input("enter your 2nd subject marks : "))
+c=int(input("Enter your 3rd subject Marks : "))
+d=((a+b+c)*100)/300
+if (d>=40 and a>=33 and b>=33 and c>=33):
+    print("Student Passed in the exam .", d)
+else:
+    print("Student has failed in the exam ." ,d)
+
+
 # Write a program to detect the spam words .
 p1="Make a lot of money ."
 p2="buy now ."
