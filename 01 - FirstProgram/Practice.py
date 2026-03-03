@@ -65,6 +65,17 @@ if ("Aniket".lower() in post.lower()):
     print ("yes")
 else:
     print("NO")
+# enter tour number to check whether it is divisible 2 or not .
+a=int(input("Enter your number:"))
+# if statement No.1
+if(a%2==0):
+    print("Number is divisible by 2")
+  #  if statement No.2
+if(a%2==3):
+    print("number is not divisible by 2 :")
+else:
+    print("None")
+
 
 
 # 08 - List and Tuple
