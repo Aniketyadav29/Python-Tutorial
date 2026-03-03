@@ -57,6 +57,18 @@ elif(marks >= 80):
 else:
     print("Grade C")
 print("\n")
+
+# Write a program to detect the spam words .
+p1="Make a lot of money ."
+p2="buy now ."
+p3="Subscribe now ."
+p4="Click this ."
+message=input("Enter your Message : ")
+if((p1 in message)or(p2 in message)or(p3 in message)or (p4 in message)):
+    print ("This is spam message.")
+
+else :
+    print("This is not a spam message .")
 #Write a program to find wether a given username contains 10 caracters or not.
 a=(input("Enter Your Name : "))
 b=len(a)
