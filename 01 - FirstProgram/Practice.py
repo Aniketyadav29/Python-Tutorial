@@ -58,6 +58,14 @@ else:
     print("Grade C")
 print("\n")
 
+# Write a program to find out whether a given name is present in list or not.
+list=["Aniket", 23, "suraj", "Anupam", "Anushka ", "Aryan"]
+Name=input("Enter Your Name : ")
+if (Name in list):
+    print("The Name is in the list .")
+else :
+    print("The name is not in the list .")
+
 # Write a program to check the in the post.
 post=input("Enter your Post : ")
 # post="hey Aniket bhai is good  aniket is very good and harry is also good  "
