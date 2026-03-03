@@ -57,6 +57,13 @@ elif(marks >= 80):
 else:
     print("Grade C")
 print("\n")
+#Write a program to find wether a given username contains 10 caracters or not.
+a=(input("Enter Your Name : "))
+b=len(a)
+if((b>10)):
+    print("The name has 10 letters.")
+else:
+    print("The name has not 10 letters.")
 
 # Write a program to find out whether a given name is present in list or not.
 list=["Aniket", 23, "suraj", "Anupam", "Anushka ", "Aryan"]
