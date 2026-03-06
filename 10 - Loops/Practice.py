@@ -68,12 +68,22 @@ for name in l:
     if(name.startswith("S")):
         print(f" Hello {name} ")
 
-#Que.3:-  Do problem print table with while Loop.
+#Question:-  Do problem print table with while Loop.
 n=int(input("Enter your Number :"))
 i=1
 while(i<11):
     print(f"{n} X {i} = {n*i} ")
     i=i+1
+
+
+# Question:- Write a program to find the number is prime or not .
+n=int(input("Enter Your Number :"))
+for i in range(2,n):
+    if((n%i)==0):
+      print("Number is not prime ")
+      break
+else:
+   print("Number is prime")
 
 # Question: Factorial
 print("\n--- Question: Factorial ---")
