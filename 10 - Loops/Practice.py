@@ -68,6 +68,13 @@ for name in l:
     if(name.startswith("S")):
         print(f" Hello {name} ")
 
+#Que.3:-  Do problem print table with while Loop.
+n=int(input("Enter your Number :"))
+i=1
+while(i<11):
+    print(f"{n} X {i} = {n*i} ")
+    i=i+1
+
 # Question: Factorial
 print("\n--- Question: Factorial ---")
 f_num = int(input("Enter number for Factorial: "))
