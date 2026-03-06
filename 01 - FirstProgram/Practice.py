@@ -224,6 +224,14 @@ i=1
 while(i<11):
     print(f"{n} X {i} = {n*i} ")
     i=i+1
+# Que.4:- Write a program to find the number is prime or not .
+n=int(input("Enter Your Number :"))
+for i in range(2,n):
+    if((n%i)==0):
+      print("Number is not prime ")
+      break
+else:
+   print("Number is prime")
 
 # 11 - Function and Recursion
 print("--- 11 Function ---")
