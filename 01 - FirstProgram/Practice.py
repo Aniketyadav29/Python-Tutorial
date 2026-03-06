@@ -205,6 +205,25 @@ while(count <= 3):
     print("Hello")
     count += 1
 print("\n")
+#     Quiz -----
+#Que.1:-  Write a progarm to print multiplication table of given number.
+n=int(input("Enter Your Number :"))
+for i in range(1,11,):
+    print(f" {n} X {i} = {n*i}" )
+
+#Que.2:-  write a program to print the name start with s in the list.
+l=["Harry","Sohan","Suraj","Rahul"]
+for name in l:
+    if(name.startswith("S")):
+        print(f" Hello {name} ")
+
+
+#Que.3:-  Do problem No.1 with while Loop.
+n=int(input("Enter your Number :"))
+i=1
+while(i<11):
+    print(f"{n} X {i} = {n*i} ")
+    i=i+1
 
 # 11 - Function and Recursion
 print("--- 11 Function ---")
