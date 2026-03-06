@@ -62,6 +62,12 @@ for i in range(1, num + 1):
     total_sum += i
 print(f"The sum of first {num} numbers is: {total_sum}")
 
+#Question:-write a program to print the name start with s in the list.
+l=["Harry","Sohan","Suraj","Rahul"]
+for name in l:
+    if(name.startswith("S")):
+        print(f" Hello {name} ")
+
 # Question: Factorial
 print("\n--- Question: Factorial ---")
 f_num = int(input("Enter number for Factorial: "))
