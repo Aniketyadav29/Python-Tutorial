@@ -99,6 +99,15 @@ heroes = ["Ironman", "Captain America", "Thor", "Hulk"]
 for hero in heroes:
     print("Hero Name:", hero)
 
+# Question.5:- Write a program to find the sum of first n naturals numbers using while loop .
+n=int(input("Enter your Number."))
+i=1
+sum=0
+while(i<=n):
+    sum+=i
+    i=i+1
+print(sum)
+
 # ==========================================================
 # Practice Session Complete!
 # ==========================================================
