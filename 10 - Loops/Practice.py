@@ -108,6 +108,13 @@ while(i<=n):
     i=i+1
 print(sum)
 
+# Question.6:- Write a program to find the factorial of the given number using for loop.
+n=int(input("Enter Your Number."))
+product=1
+for i in range(1,n+1):
+    product=product*i
+print(f"The factorial of {n} is {product}")
+
 # ==========================================================
 # Practice Session Complete!
 # ==========================================================
