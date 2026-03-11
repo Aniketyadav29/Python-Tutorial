@@ -217,6 +217,14 @@ for i in range(100):
     if(i==35):
         continue # skip this iteration.
     print(i)
+
+# Example :-
+
+for i in range (4):
+    print("Printing")
+    if i==2:
+        continue
+    print(i)
 #     Quiz -----
 #Que.1:-  Write a progarm to print multiplication table of given number.
 n=int(input("Enter Your Number :"))
