@@ -210,6 +210,13 @@ for i in range(100):
     if(i==35):
         break  # Exit from the loop .
     print(i)
+
+# Continue :-
+
+for i in range(100):
+    if(i==35):
+        continue # skip this iteration.
+    print(i)
 #     Quiz -----
 #Que.1:-  Write a progarm to print multiplication table of given number.
 n=int(input("Enter Your Number :"))
