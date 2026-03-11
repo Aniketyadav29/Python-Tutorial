@@ -225,6 +225,15 @@ for i in range (4):
     if i==2:
         continue
     print(i)
+
+#Example :-
+for i in range(645):
+    pass
+i=0
+while(i<47):
+    print(i)
+    i=i+1
+
 #     Quiz -----
 #Que.1:-  Write a progarm to print multiplication table of given number.
 n=int(input("Enter Your Number :"))
