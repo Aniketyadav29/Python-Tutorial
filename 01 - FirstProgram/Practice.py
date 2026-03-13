@@ -281,6 +281,12 @@ f=open("File.txt")
 data=f.read()
 print(data)
 f.close()
+# Program for write in file.
+st="Hey Harry You r amazing"
+
+f=open("myfile.txt","w")
+f.write(st)
+f.close()
 
 # 13 - OOPs
 print("--- 13 OOPs ---")
