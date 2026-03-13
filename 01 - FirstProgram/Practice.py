@@ -308,10 +308,12 @@ print(line3, type(line3))
 
 line4=f.readline()
 print(line4, type(line4))
-line=f.readline()
-while(line!=""):
-    print(line,type(line))
-    line=f.readline()
+# Another Method to write this Program.
+
+# line=f.readline()
+# while(line!=""):
+#     print(line,type(line))
+#     line=f.readline()
 
 f.close()
 
