@@ -276,6 +276,11 @@ f.write("I am learning Python")
 f.close()
 print("File written successfully")
 print("\n")
+# program for read a file .
+f=open("File.txt")
+data=f.read()
+print(data)
+f.close()
 
 # 13 - OOPs
 print("--- 13 OOPs ---")
