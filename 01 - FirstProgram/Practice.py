@@ -288,6 +288,33 @@ f=open("myfile.txt","w")
 f.write(st)
 f.close()
 
+# Program for read all the line using (Readlines(),Readline()).
+
+f=open("File.txt")
+lines=f.readlines()
+print(lines, type(lines))
+
+line0=f.readline()
+print(line0,type(line0))
+
+line1=f.readline()
+print(line1, type(line1))
+
+line2=f.readline()
+print(line2, type(line2))
+
+line3=f.readline()
+print(line3, type(line3))
+
+line4=f.readline()
+print(line4, type(line4))
+line=f.readline()
+while(line!=""):
+    print(line,type(line))
+    line=f.readline()
+
+f.close()
+
 # 13 - OOPs
 print("--- 13 OOPs ---")
 class Student:
