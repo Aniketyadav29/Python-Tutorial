@@ -127,7 +127,16 @@ with open ("myfile.txt","w") as file1:
     
     file1.write(st)
     print("Done .")
+# 8
+f = open("poem.txt","r")
+c = f.read()
 
+if("boy" in c):
+    print("boy is present in file.")
+else:
+    print("boy is not present in .txt file")
+
+f.close()
 
 
 # ==========================================================
