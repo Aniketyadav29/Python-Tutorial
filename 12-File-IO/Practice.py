@@ -115,6 +115,20 @@ while(line!=""):
 
 f.close()
 
+# 6
+with open (r"c:\Users\Dell\Desktop\CWH.py\Project -1\main.py","r") as file1:
+    content=file1.read()
+    print(content)
+
+#7
+
+st="I am a good boy."
+with open ("myfile.txt","w") as file1:
+    
+    file1.write(st)
+    print("Done .")
+
+
 
 # ==========================================================
 # Practice Session Complete!
