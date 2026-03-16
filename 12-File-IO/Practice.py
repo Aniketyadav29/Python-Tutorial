@@ -77,6 +77,45 @@ def find_line_of_word(filename, word):
 
 find_line_of_word("practice.txt", "java")
 
+# 5.
+f=open("File.txt")
+data=f.read()
+print(data)
+f.close()
+
+
+# st="Hey Harry You r amazing"
+
+f=open("myfile.txt","w")
+f.write(st)
+f.close()
+
+f=open("File.txt")
+# lines=f.readlines()
+# print(lines, type(lines))
+
+# line0=f.readline()
+# print(line0,type(line0))
+
+# line1=f.readline()
+# print(line1, type(line1))
+
+# line2=f.readline()
+# print(line2, type(line2))
+
+# line3=f.readline()
+# print(line3, type(line3))
+
+# line4=f.readline()
+# print(line4, type(line4))
+line=f.readline()
+while(line!=""):
+    print(line,type(line))
+    line=f.readline()
+
+f.close()
+
+
 # ==========================================================
 # Practice Session Complete!
 # ==========================================================
