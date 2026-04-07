@@ -1,4 +1,4 @@
-// Normal Method Programming//
+# // Normal Method Programming//
 import time
 
 def task(name):
@@ -16,7 +16,7 @@ Start B
 End B
 
 
-// Asynchronous programming //
+# // Asynchronous programming //
 
 import asyncio
 
