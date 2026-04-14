@@ -370,3 +370,25 @@ match data:
     case _:
         print("none")
 
+# Conditional stat.:-
+
+x = 5
+
+match x:
+    case 1   if x < 5:
+        print("lower than 5")  
+
+    case 2 if x > 5:
+        print("5") 
+    case _:
+        print ("No one ")
+    
+x = 10
+
+match x:
+    case n if n < 5:
+        print("Less than 5")
+    case n if n > 5:
+        print("Greater than 5")
+
+
