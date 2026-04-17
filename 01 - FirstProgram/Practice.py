@@ -464,6 +464,10 @@ def square():
     return n*n
 print(square())
 
+#Using Lembda Function:-
+square=lambda x:x*x
+print(square(int(input("Enter Your Number ."))))
+
 
 
 
