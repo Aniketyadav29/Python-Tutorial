@@ -457,5 +457,14 @@ print(final)
 a="{} is a good {}".format("Aniket","boy")
 print(a)
 
+# Lemda Function:-
+# Normal Method:-
+def square():
+    n=int(input("Enter Your Number."))
+    return n*n
+print(square())
+
+
+
 
 
