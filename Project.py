@@ -12,3 +12,26 @@ you=youDict[youstr]
 print(f" You choose {reverseDict[you]}\n Computer choose {reverseDict[computer]} ")
 if(computer==you):
     print("It's a Draw!")
+
+else:
+    if(computer== -1 and you== 1):
+        print("You Win!.")
+
+    elif(computer== -1 and you== 0):
+        print("You Win!.")
+
+    elif(computer== 1 and you== -1):
+        print("You Loose!.")
+
+    elif(computer== 1 and you== 0):
+        print("You Loose!.")
+
+    elif(computer== 0 and you== -1):
+        print("You Loose!.")
+
+    elif(computer== 0 and you== 1):
+        print("You Win!.")
+
+    else:
+        print("somthing Went Wrong.")
+
