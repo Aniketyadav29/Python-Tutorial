@@ -493,6 +493,14 @@ l=[1,2,3,4,5]
 result=reduce(lambda x,y:x+y,l)
 print(result)
 
+# Mini Project :-
+import random
+'''
+1 for snake
+-1 for water
+0 for gun
+'''
+
 
 
 
