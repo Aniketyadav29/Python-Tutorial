@@ -1,6 +1,5 @@
-# ==========================================
 # Python Full Course Practice -
-# ==========================================
+
 
 # 01 - Comments
 # This is a single-line comment
