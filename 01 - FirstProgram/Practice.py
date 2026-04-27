@@ -429,7 +429,7 @@ while (data != "exit"):
     print(data)
     # data = input("Enter: ")
 
-# Walrus Methid:
+# Walrus Method:
 
 while(data:=input("Enter:")) != "exit":
     print(data)
