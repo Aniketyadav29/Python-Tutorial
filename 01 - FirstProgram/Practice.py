@@ -1,5 +1,5 @@
 # ==========================================
-# Python Full Course Practice - Aniket Yadav
+# Python Full Course Practice -
 # ==========================================
 
 # 01 - Comments
