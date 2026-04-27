@@ -547,6 +547,23 @@ task("B")
 # Start B
 # End B
 
+# // Asynchronous programming //
+
+import asyncio
+
+async def task(name):
+    print(f"Start {name}")
+    await asyncio.sleep(2)   # non-blocking wait
+    print(f"End {name}")
+
+async def main():
+    await asyncio.gather(
+        task("A"),
+        task("B")
+    )
+
+asyncio.run(main())
+
 
 
 
