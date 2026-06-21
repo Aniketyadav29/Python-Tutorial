@@ -1,4 +1,4 @@
-# Python Full Course Practice -
+# Complete Python practice set with example :-
 
 # 01 - Comments
 # This is a single-line comment
@@ -277,8 +277,8 @@ data=f.read()
 print(data)
 f.close()
 # Program for write in file.
-st="Hey Harry You r amazing"
 
+st="Hey Harry You r amazing"
 f=open("myfile.txt","w")
 f.write(st)
 f.close()
