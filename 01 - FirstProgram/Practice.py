@@ -205,6 +205,8 @@ for i in range(100):
 
 # Continue :-
 
+#Example:-
+
 for i in range(100):
     if(i==35):
         continue # skip this iteration.
@@ -218,7 +220,7 @@ for i in range (4):
         continue
     print(i)
 
-#Example :-
+# Example :-
 for i in range(645):
     pass
 i=0
@@ -255,6 +257,7 @@ else:
    print("Number is prime")
 
 # 11 - Function and Recursion
+
 print("--- 11 Function ---")
 def my_func(name):
     print("Hello " + name)
