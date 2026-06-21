@@ -138,13 +138,7 @@ tup = (1, 2, 3) # Tuple is immutable
 print(tup)
 print("\n")
 
-
-
-
-
-
-
-# b :-
+# a :-
 # Write a program to store seven friuts in list entered by the user 
 
 a=str(input("Enter your First Fruits:"))
@@ -157,7 +151,7 @@ list=[a,b,d,e,f,g]
 print(list)
 list.append("Aniket")
 print(list)
-# c:-
+# b:-
 # Write a program to print to marks of a student and desplay it into sorted maner.
 m=(input("Enter your NO. :"))
 s=(input("Enter your NO. :"))
@@ -170,15 +164,15 @@ print(list)
 list.sort()
 print(list) 
 
-Write a program to sum a list with 4 numbers.
-# a=int(input("Enter your first number"))
-# b=int(input("Enter your Second number"))
-# c=int(input("Enter your Third number"))
-# d=int(input("Enter your four number"))
-# list=[a,b,c,d]
-# # sum=(a+b+c+d)
-# print(list)
-# print(sum(list)
+# c:-Write a program to sum a list with 4 numbers.
+a=int(input("Enter your first number"))
+b=int(input("Enter your Second number"))
+c=int(input("Enter your Third number"))
+d=int(input("Enter your four number"))
+list=[a,b,c,d]
+sum=(a+b+c+d)
+print(list)
+print(sum(list)
 
 
 # 09 - Dictionary and Sets
